@@ -1,0 +1,22 @@
+﻿/******************************************************************************************
+	XXXX:YYYY  XXXX is Unicode Code Point, YYYY is translated hex decimal in target encoding.
+
+
+
+*******************************************************************************************/
+[
+	{
+		"IsEffective": true,
+		"Host": "acus1.rsvl.unisys.com",
+		"SourceSchemas": [ "Schema1", "Schema2" ],
+		"TargetEncodingName": "GB2312",
+		"CharMappings": [ "00FE:C4E3" ]
+	},
+	{
+		"IsEffective": true,
+		"Host": "rs14.rsvl.unisys.com",
+		"SourceSchemas": [ "Schema3", "Schema4" ],
+		"TargetEncodingName": "Windows-1253",
+		"CharMappings": [ "00FE:3B", "0021:7C" ]
+	}
+]

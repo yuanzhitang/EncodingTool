@@ -1,0 +1,12 @@
+C:\Michael\GitHub\EncodingTool\CharacterTranslation\bin\Debug\CharacterMappings.json
+C:\Michael\GitHub\EncodingTool\CharacterTranslation\bin\Debug\EncodingLib.exe.config
+C:\Michael\GitHub\EncodingTool\CharacterTranslation\bin\Debug\EncodingLib.exe
+C:\Michael\GitHub\EncodingTool\CharacterTranslation\bin\Debug\EncodingLib.pdb
+C:\Michael\GitHub\EncodingTool\CharacterTranslation\bin\Debug\Newtonsoft.Json.dll
+C:\Michael\GitHub\EncodingTool\CharacterTranslation\bin\Debug\Newtonsoft.Json.xml
+C:\Michael\GitHub\EncodingTool\CharacterTranslation\obj\Debug\CharacterTranslation.csproj.AssemblyReference.cache
+C:\Michael\GitHub\EncodingTool\CharacterTranslation\obj\Debug\CharacterTranslation.csproj.SuggestedBindingRedirects.cache
+C:\Michael\GitHub\EncodingTool\CharacterTranslation\obj\Debug\CharacterTranslation.csproj.CoreCompileInputs.cache
+C:\Michael\GitHub\EncodingTool\CharacterTranslation\obj\Debug\CharacterTranslation.csproj.CopyComplete
+C:\Michael\GitHub\EncodingTool\CharacterTranslation\obj\Debug\EncodingLib.exe
+C:\Michael\GitHub\EncodingTool\CharacterTranslation\obj\Debug\EncodingLib.pdb
