@@ -54,7 +54,7 @@ namespace EncodingTool
 				}
 				catch
 				{
-					MessageBox.Show($"{encodingTxt} is invalid");
+					MessageBox.Show($"'{encodingTxt}' is an invalid Encoding");
 				}
 				
 			}

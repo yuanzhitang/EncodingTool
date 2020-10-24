@@ -5,33 +5,33 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:EncodingTool"
         mc:Ignorable="d"
-        Title="EncodingTool" Height="450" Width="800">
+		WindowStartupLocation="CenterScreen"
+        Title="EncodingTool V1.0" Height="450" Width="800">
 	<Grid>
 		<TabControl>
 			<TabItem Header="UnicodeCodePoint">
-				<GroupBox Header="Unicode Code Point" HorizontalAlignment="Left" Height="178" Margin="27,24,0,0" VerticalAlignment="Top" Width="337">
-					<Grid>
-						<Grid.RowDefinitions>
-							<RowDefinition></RowDefinition>
-							<RowDefinition></RowDefinition>
-							<RowDefinition></RowDefinition>
-						</Grid.RowDefinitions>
-						<Grid.ColumnDefinitions>
-							<ColumnDefinition></ColumnDefinition>
-							<ColumnDefinition></ColumnDefinition>
-						</Grid.ColumnDefinitions>
+				<StackPanel HorizontalAlignment="Center" Width="600">
+				<Grid>
+					<Grid.RowDefinitions>
+						<RowDefinition></RowDefinition>
+						<RowDefinition></RowDefinition>
+						<RowDefinition></RowDefinition>
+					</Grid.RowDefinitions>
+					<Grid.ColumnDefinitions>
+						<ColumnDefinition></ColumnDefinition>
+						<ColumnDefinition></ColumnDefinition>
+					</Grid.ColumnDefinitions>
 
-						<Label Content="Character" Grid.Row="0" Grid.Column="0" Width="75"/>
-						<TextBox Grid.Row="0" Grid.Column="1" x:Name="tbCharacter"></TextBox>
-						<Label Content="Code Point" Grid.Row="1" Grid.Column="0" Width="75"/>
-						<TextBox Grid.Row="1" Grid.Column="1" x:Name="tbOutput"></TextBox>
-						<Button Grid.Row="2" Grid.Column="0" x:Name="btnOk" Content="Print Unicode Code Point" Click="btnOk_Click"/>
-					</Grid>
-
-				</GroupBox>
+						<Label Content="Character" Grid.Row="0" Grid.Column="0" Height="35" />
+					<TextBox Grid.Row="0" Grid.Column="1" x:Name="tbCharacter" Height="35" Margin="10,10,10,10"></TextBox>
+						<Label Content="Unicode Code Point" Grid.Row="1" Grid.Column="0"  Height="35"/>
+						<TextBox Grid.Row="1" Grid.Column="1" x:Name="tbOutput" Height="35" Margin="10,10,10,10"></TextBox>
+					<Button Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="2" HorizontalAlignment="Center" Width="150" Height="35" Margin="0,30,0,30" x:Name="btnOk" Content="Print Unicode Code Point" Click="btnOk_Click"/>
+				</Grid>
+				</StackPanel>
 			</TabItem>
-			<TabItem Header="Character2Hex">
-				<GroupBox Header="HexDecimal" HorizontalAlignment="Left" Height="178" Margin="27,24,0,0" VerticalAlignment="Top" Width="337">
+			<TabItem Header="Conver Char to Hex">
+				<StackPanel HorizontalAlignment="Center" Width="600">
 					<Grid>
 						<Grid.RowDefinitions>
 							<RowDefinition></RowDefinition>
@@ -44,16 +44,15 @@
 							<ColumnDefinition></ColumnDefinition>
 						</Grid.ColumnDefinitions>
 
-						<Label Content="Character" Grid.Row="0" Grid.Column="0" Width="75"/>
-						<TextBox Grid.Row="0" Grid.Column="1" x:Name="tbCharacterTarget"></TextBox>
-						<Label Content="Encoding" Grid.Row="1" Grid.Column="0" Width="75"/>
-						<TextBox Grid.Row="1" Grid.Column="1" x:Name="tbEncoding" Text="Windows-1252"></TextBox>
-						<Label Content="Hex Decimal" Grid.Row="2" Grid.Column="0" Width="75"/>
-						<TextBox Grid.Row="2" Grid.Column="1" x:Name="tbOutputTarget"></TextBox>
-						<Button Grid.Row="3" Grid.Column="0" x:Name="btnCalcHex" Content="Print Hex Decimal" Click="btnCalcHex_Click"/>
+						<Label Content="Character" Grid.Row="0" Grid.Column="0" Width="75" Height="35"/>
+						<TextBox Grid.Row="0" Grid.Column="1" x:Name="tbCharacterTarget" Height="35" Margin="10,10,10,10"></TextBox>
+						<Label Content="Encoding" Grid.Row="1" Grid.Column="0" Width="75" Height="35"/>
+						<TextBox Grid.Row="1" Grid.Column="1" x:Name="tbEncoding" Text="Windows-1252" Height="35" Margin="10,10,10,10"></TextBox>
+						<Label Content="Hex Decimal" Grid.Row="2" Grid.Column="0" Width="75" Height="35"/>
+						<TextBox Grid.Row="2" Grid.Column="1" x:Name="tbOutputTarget" Height="35" Margin="10,10,10,10"></TextBox>
+						<Button Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="2"  HorizontalAlignment="Center" Height="35" Width="150" Margin="0,30,0,30" x:Name="btnCalcHex" Content="Print Hex Decimal" Click="btnCalcHex_Click"/>
 					</Grid>
-
-				</GroupBox>
+				</StackPanel>
 			</TabItem>
 		</TabControl>
 		
