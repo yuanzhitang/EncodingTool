@@ -23,6 +23,18 @@ namespace EncodingTool
 		public MainWindow()
 		{
 			InitializeComponent();
+
+			InitEncodingList();
+		}
+
+		private void InitEncodingList()
+		{
+			tbEncoding.Items.Clear();
+
+			foreach(var encoding in Encoding.GetEncodings())
+			{
+				tbEncoding.Items.Add(encoding.Name);
+			}
 		}
 
 		private void btnOk_Click(object sender, RoutedEventArgs e)
